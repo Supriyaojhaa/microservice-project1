@@ -21,7 +21,6 @@ public class CheckController {
 
     @PutMapping("path/{id}")
     public String putMethodName(@PathVariable String id, @RequestBody String entity) {
-        //TODO: process PUT request
         
         return entity;
     }
